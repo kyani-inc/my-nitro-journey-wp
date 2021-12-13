@@ -360,8 +360,10 @@ function my_acf_add_local_field_groups()
 			$rep = explode('.', $_SERVER['HTTP_X_FORWARDED_HOST'])[0];
 		}
 		global $rep;
-		if ($rep->rep_found()) {
-			$repID = $rep->get_rep_id();
+		if ($rep) {
+			if ($rep->rep_found()) {
+				$repID = $rep->get_rep_id();
+			}
 		}
 
 		// instantiate ShopLink Class
