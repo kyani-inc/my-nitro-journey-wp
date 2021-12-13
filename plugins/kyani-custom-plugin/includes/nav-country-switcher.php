@@ -34,7 +34,7 @@ function add_country_selector_to_menu($items, $args)
 
 				}
 				$items_array[] = $items;
-				array_splice($items_array, 2, 0, $new_nav_item);
+				array_splice($items_array, 0, 0, $new_nav_item);
 
 				$items = implode('', $items_array);
 				return $items;
@@ -47,13 +47,35 @@ function add_country_selector_to_menu($items, $args)
 add_filter('wp_nav_menu_items', 'add_country_selector_to_mobile', 10, 2);
 function add_country_selector_to_mobile($items, $args) {
 	$sites = get_sites(['public' => 1]);
-	$new_nav_item = "";
 	$current_site_id = get_current_blog_id();
-	$currentSite = get_blog_details($current_site_id)->blogname;
+	$new_nav_item = "";
+	$items_array = array();
+
+	// get the current site country code
+	$current_site_country_code = str_replace("/", "", get_blog_details($current_site_id)->path);
+	// since the main site is for the US but contains no country code assign it to $current_site_country_code
+	if ($current_site_country_code == "") {
+		$current_site_country_code = "us";
+	}
+
+	// GET translations for current country
+	$locale_translations = '';
+	$translations = json_decode(file_get_contents(plugins_url() . '/kyani-custom-plugin/assets/data/translations/' . $current_site_country_code . '.json'));
+
+	// GET current locale for country
+	global $TRP_LANGUAGE;
+	$current_locale = $TRP_LANGUAGE;
+
+	// SET locale translations for current locale
+	foreach ($translations->locales as $locale) {
+		if ($locale->locale === $current_locale) {
+			$locale_translations = $locale->translations;
+		}
+	}
 
 	if ($args->theme_location == "mobile") {
 		$new_nav_item .= "<li class='nav-item dropdown mobile-only mt-auto'><a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown'>";
-		$new_nav_item .= $currentSite ."</a>";
+		$new_nav_item .= $locale_translations->country ."</a>";
 		$new_nav_item .= "<ul class='dropdown-menu' id='countries' aria-labelledby='navbarDropdown'>";
 
 		$new_nav_item .= buildDropDownItems($sites);
@@ -61,13 +83,13 @@ function add_country_selector_to_mobile($items, $args) {
 	}
 	// if there are menu items in the $items array it will add the country switcher as the second menu item
 	if ($items) {
-		while (false !== ($items_pos = strpos($items, '<li', 2))) {
+		while (false !== ($items_pos = strpos($items, '<li', 3))) {
 			$items_array[] = substr($items, 0, $items_pos);
 			$items = substr($items, $items_pos);
 
 		}
 		$items_array[] = $items;
-		array_splice($items_array, 2, 0, $new_nav_item);
+		array_splice($items_array, 1, 0, $new_nav_item);
 
 		$items = implode('', $items_array);
 		return $items;

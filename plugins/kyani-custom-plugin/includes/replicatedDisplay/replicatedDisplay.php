@@ -102,7 +102,7 @@ function replicated_display_mobile_shortcode()
 	// IF rep and rep found create menu item
 	if ($rep) {
 		if ($rep->rep_found()) {
-			$replicated_display .= '<li class="nav-item dropdown mobile-only"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">' . $rep->get_rep_name() . '</a><i class="fa-solid fa-chevron-up"></i>';
+			$replicated_display .= '<li class="nav-item dropdown mobile-only"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">' . $rep->get_rep_name() . '</a>';
 			$replicated_display .= '<ul class="dropdown-menu p-5 col-12" id="countries repDisplay" aria-labelledby="navbarDropdown">';
 			$replicated_display .= '<div class="col-10"><p class="repInfo">' . $locale_translations->ibp . '<br>
 							  		ID: ' . $rep->get_rep_id() . '<br>
