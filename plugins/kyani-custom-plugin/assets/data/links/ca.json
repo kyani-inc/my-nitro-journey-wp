@@ -1,0 +1,35 @@
+{
+  "country": "CANADA",
+  "default_rep": "157",
+  "nitro_nutrition": "929",
+  "triangle_of_health": "",
+  "fleuresse": "314",
+  "nutritionals": "181",
+  "protein_nutritionals": "",
+  "charity": "501",
+  "on": "",
+  "sunrise": "109ENSR30",
+  "sunset": "109ENSS",
+  "core140": "",
+  "nitro": "109ENFX56",
+  "nitroxtreme": "109ENXT56",
+  "hl5": "109ENHL5",
+  "fit20": "",
+  "locales": [
+    {
+      "locale": "en_CA",
+      "language_code": "1",
+      "join_locale": "en-us"
+    },
+    {
+      "locale": "fr_CA",
+      "language_code": "54",
+      "join_locale": "fr-ca"
+    },
+    {
+      "locale": "zh_CA",
+      "language_code": "-3",
+      "join_locale": "zh-us"
+    }
+  ]
+}

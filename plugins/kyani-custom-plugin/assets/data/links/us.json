@@ -1,0 +1,40 @@
+{
+  "country": "USA",
+  "default_rep": "157",
+  "nitro_nutrition": "927",
+  "triangle_of_health": "18",
+  "digestive_health": "980",
+  "fleuresse": "69",
+  "nutritionals": "18",
+  "protein_nutritionals": "73",
+  "energy_nootropics": "820",
+  "meal_replacement": "800",
+  "charity": "39",
+  "on": "101ENNOOTROPP",
+  "sunrise": "101ENSR30",
+  "sunset": "101ENSS",
+  "core140": "101ENCORECH",
+  "nitro": "101ENFX56",
+  "nitroxtreme": "101ENXTP56",
+  "hl5": "101ENHL5",
+  "hl5_peach": "101ENHL5P",
+  "origin_vanilla": "101ENOPBSV",
+  "fit20": "101ENFIT20",
+  "locales": [
+    {
+      "locale": "en_US",
+      "language_code": "1",
+      "join_locale": "en-us"
+    },
+    {
+      "locale": "es_US",
+      "language_code": "135",
+      "join_locale": "es-us"
+    },
+    {
+      "locale": "zh_US",
+      "language_code": "-3",
+      "join_locale": "zh-us"
+    }
+  ]
+}

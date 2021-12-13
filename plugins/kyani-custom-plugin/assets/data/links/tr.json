@@ -1,0 +1,29 @@
+{
+  "country": "TURKEY",
+  "default_rep": "",
+  "triangle_of_health": "166",
+  "fleuresse": "",
+  "nutritionals": "",
+  "protein_nutritionals": "226",
+  "charity": "",
+  "on": "",
+  "sunrise": "245TRSR30",
+  "sunset": "245TRSS",
+  "core140": "",
+  "nitro": "245TRFX56",
+  "nitroxtreme": "245TRXT56",
+  "hl5": "245TRHL5",
+  "fit20": "245TRFIT20",
+  "locales": [
+    {
+      "locale": "tr_TR",
+      "language_code": "124",
+      "join_locale": "tr-tr"
+    },
+    {
+      "locale": "en_TR",
+      "language_code": "47",
+      "join_locale": "en-gb"
+    }
+  ]
+}

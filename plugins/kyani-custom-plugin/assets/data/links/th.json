@@ -1,0 +1,24 @@
+{
+    "country": "THAILAND",
+    "default_rep": "157",
+    "triangle_of_health": "4977/สามเหลี่ยมสุขภาพ",
+    "fleuresse": "4973/fleuresse",
+    "nutritionals": "",
+    "protein_nutritionals": "",
+    "charity": "6083/charity-donations",
+    "on": "",
+    "sunrise": "4974-416THSR30/kyani-sunrise",
+    "sunset": "4975-416THSS/kyani-sunset",
+    "core140": "",
+    "nitro": "4976-416THFX56/kyani-nitro-fx-56ml",
+    "nitroxtreme": "",
+    "hl5": "",
+    "fit20": "",
+    "locales": [
+      {
+        "locale": "th",
+        "language_code": "123",
+        "join_locale": "th-th"
+      }
+    ]
+  }
