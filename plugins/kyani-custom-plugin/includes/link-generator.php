@@ -355,10 +355,10 @@ function my_acf_add_local_field_groups()
 {
 	if (function_exists('acf_add_local_field_group')) {
 		$repID = "";
-//
-//		if (isset($_SERVER['HTTP_X_FORWARDED_HOST'])) {
-//			$rep = explode('.', $_SERVER['HTTP_X_FORWARDED_HOST'])[0];
-//		}
+
+		if (isset($_SERVER['HTTP_X_FORWARDED_HOST'])) {
+			$rep = explode('.', $_SERVER['HTTP_X_FORWARDED_HOST'])[0];
+		}
 		global $rep;
 		if ($rep->rep_found()) {
 			$repID = $rep->get_rep_id();
