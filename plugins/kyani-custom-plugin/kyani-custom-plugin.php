@@ -11,7 +11,7 @@ $kyani_plugin_includes = array(
 	'/class-rep.php',
 	'/replicatedDisplay/replicatedDisplay.php',
 //	'/link-generator.php',
-//	'/navShopLink/navShopLink.php',
+	'/navShopLink/navShopLink.php',
 	'/nav-country-switcher.php',
 );
 
