@@ -12,7 +12,7 @@ $kyani_plugin_includes = array(
 	'/replicatedDisplay/replicatedDisplay.php',
 //	'/link-generator.php',
 //	'/navShopLink/navShopLink.php',
-//	'/nav-country-switcher.php',
+	'/nav-country-switcher.php',
 );
 
 foreach ($kyani_plugin_includes as $file) {
