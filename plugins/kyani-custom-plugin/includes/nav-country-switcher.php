@@ -74,7 +74,7 @@ function add_country_selector_to_mobile($items, $args) {
 	}
 
 	if ($args->theme_location == "mobile") {
-		$new_nav_item .= "<li class='nav-item dropdown mobile-only'><a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown'>";
+		$new_nav_item .= "<li class='nav-item dropdown mobile-only mt-auto'><a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown'>";
 		$new_nav_item .= $locale_translations->country ."</a>";
 		$new_nav_item .= "<ul class='dropdown-menu' id='countries' aria-labelledby='navbarDropdown'>";
 
@@ -89,7 +89,7 @@ function add_country_selector_to_mobile($items, $args) {
 
 		}
 		$items_array[] = $items;
-		array_splice($items_array, 2, 0, $new_nav_item);
+		array_splice($items_array, 1, 0, $new_nav_item);
 
 		$items = implode('', $items_array);
 		return $items;

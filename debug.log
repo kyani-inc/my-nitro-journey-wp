@@ -10347,3 +10347,179 @@ Stack trace:
 #6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
 #7 {main}
   thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:54:04 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:54:04 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:54:05 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:54:05 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:54:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:59:33 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:59:33 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:59:33 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:59:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:59:43 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:59:43 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:59:43 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:59:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:59:52 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:59:52 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:59:52 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:59:52 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:59:52 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:59:52 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 18:59:52 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 18:59:53 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 18:59:53 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 18:59:53 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 18:59:53 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 18:59:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:00:06 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:00:06 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:00:06 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:00:06 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:00:06 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:00:06 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:00:06 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:00:07 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:00:07 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:00:07 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:00:07 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:00:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:00:27 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:00:27 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:00:28 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:00:28 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:00:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:00:46 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:00:46 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:00:47 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:00:47 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:00:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:02:12 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:02:12 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:02:12 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:02:12 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:02:12 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:02:12 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[16-Dec-2021 19:02:12 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[16-Dec-2021 19:02:13 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[16-Dec-2021 19:02:13 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[16-Dec-2021 19:02:13 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[16-Dec-2021 19:02:13 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[16-Dec-2021 19:02:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
