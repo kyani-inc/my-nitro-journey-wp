@@ -55,7 +55,7 @@ if (isset($_SERVER['HTTP_X_KYANI_REP'])) {
 	<title><?php echo esc_html(wp_title()); ?> </title>
 </head>
 
-<body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
+<body <?php body_class(); ?> <?php understrap_body_attributes(); ?> onload="console.log('test');">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>
