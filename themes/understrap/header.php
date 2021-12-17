@@ -93,8 +93,10 @@ if (isset($_SERVER['HTTP_X_KYANI_REP'])) {
 								src="<?php echo esc_url(bloginfo('template_directory') . "/images/" . $logoLink) ?>"
 								alt=""
 								width=<?php echo esc_attr($logoWidth) ?>></a>
-					<div class="desktop-only"><?php echo do_shortcode('[replicatedDisplay]'); ?></div>
-					<div class="desktop-only"><?php echo do_shortcode('[navShopLink]'); ?></div>
+					<ul class="navbar-nav desktop-only">
+					<?php echo do_shortcode('[replicatedDisplay]'); ?>
+					<?php echo do_shortcode('[navShopLink]'); ?>
+					</ul>
 					<?php wp_nav_menu(
 							array(
 									'theme_location' => 'primary',

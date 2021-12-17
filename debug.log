@@ -10589,3 +10589,393 @@ Stack trace:
 #6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
 #7 {main}
   thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:51 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:51 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:51 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:51 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:52 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:52 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:52 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:53 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:53 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:54 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:54 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:54 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:54:54 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:54:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:55:28 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:55:28 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:55:29 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:55:29 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:57:03 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:57:03 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Trying to get property 'default_rep' of non-object in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 41
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:57:03 UTC] PHP Notice:  Undefined variable: link in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:57:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_all_products_link() on null in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php:9
+Stack trace:
+#0 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(770): require_once()
+#1 /srv/www/kyaninitro.test/public_html/wp-includes/template.php(716): load_template('/srv/www/kyanin...', true, Array)
+#2 /srv/www/kyaninitro.test/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/page.php(59): get_footer()
+#4 /srv/www/kyaninitro.test/public_html/wp-includes/template-loader.php(106): include('/srv/www/kyanin...')
+#5 /srv/www/kyaninitro.test/public_html/wp-blog-header.php(19): require_once('/srv/www/kyanin...')
+#6 /srv/www/kyaninitro.test/public_html/index.php(17): require('/srv/www/kyanin...')
+#7 {main}
+  thrown in /srv/www/kyaninitro.test/public_html/wp-content/themes/understrap/footer.php on line 9
+[17-Dec-2021 17:57:42 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:57:42 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:57:42 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 17:57:43 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 18:05:06 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 18:05:07 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 18:05:07 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 18:05:08 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 18:05:39 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 18:05:40 UTC] PHP Warning:  file_get_contents(/srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/assets/data/links/us.json): failed to open stream: No such file or directory in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/navShopLink/navShopLink.php on line 17
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 18:05:40 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$triangle_of_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 62
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 63
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$fleuresse in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 64
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$protein_nutritionals in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 65
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$charity in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 66
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$energy_nootropics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 67
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$meal_replacement in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 68
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$puredawoom in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 70
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$digestive_health in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 71
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$nucleus_bar in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 82
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$hl5_peach in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 83
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$origin_vanilla in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 84
+[17-Dec-2021 18:05:41 UTC] PHP Notice:  Undefined property: stdClass::$probiotics in /srv/www/kyaninitro.test/public_html/wp-content/plugins/kyani-custom-plugin/includes/link-generator.php on line 85

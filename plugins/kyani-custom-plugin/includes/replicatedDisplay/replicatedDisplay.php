@@ -38,11 +38,11 @@ function replicated_display_shortcode()
 	// IF rep and rep found create menu item
 	if ($rep) {
 		if ($rep->rep_found()) {
-			$replicated_display = '<a class="repDropdown nav-link" onclick="toggleRepDisplay()">' . $rep->get_rep_name() . '</a>';
+			$replicated_display = '<li class="nav-item"><a class="repDropdown nav-link" onclick="toggleRepDisplay()">' . $rep->get_rep_name() . '</a></li>';
 
 			$replicated_display .= '<div id="repDisplay" style="display: none;" class="col-12"><div class="col-7 row d-flex justify-content-center p-5">
-								  <div class="col-2 p-3 text-right"><img src="' . $rep->get_rep_image() . '" class="repImage"></div>
-								  <div class="col-10 col-lg-10 col-xl-10 p-3">
+								  <div class="col-2 col-md-5 col-lg-2 col-xl-2 p-3 text-right"><img src="' . $rep->get_rep_image() . '" class="repImage"></div>
+								  <div class="col-10 col-md-7 col-lg-10 col-xl-10 p-3">
 																<h2 class="repName">' . $rep->get_rep_name() . '</h2>
 																<p class="repInfo">' . $locale_translations->ibp . '<br>
 																ID: ' . $rep->get_rep_id() . '<br>

@@ -93,7 +93,7 @@ class Rep
 }
 
 function set_rep() {
-	$repID = "";
+	$repID = "50";
 
 	global $rep;
 	$rep = new Rep($repID);
