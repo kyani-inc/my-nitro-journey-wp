@@ -1,20 +1,17 @@
 {
     "country": "HONG KONG",
     "default_rep": "150",
-    "nitro_nutrition": "7295/尼多樂營養系統",
-    "triangle_of_health": "1006/健康三角組合",
-    "fleuresse": "",
-    "nutritionals": "",
-    "protein_nutritionals": "6135/蛋白營質養產品",
-    "charity": "",
-    "on": "7227-302ZHNOOTROPR/on-能量飲-(覆盆子葡萄柚味)---on-(raspberry-grapefruit)",
-    "sunrise": "999-302ZHSR302/新樂思便利裝新配方-(1-安士-x-30-包)-sunrise-new-formula-(1-oz-x-30-pcs)",
-    "sunset": "1001-302ZHSS/新舒康-(90-粒)-sunset-(90-caps)",
-    "core140": "3527-302ZHCORECH/core140+-營養輕食餐---core-140+",
-    "nitro": "1003-302ZHFX56/尼多樂-(56-毫升)-nitro-fx-(56-ml)",
-    "nitroxtreme": "1003-302ZHXT56/至尊尼多樂-(56-毫升)-nitro-xtreme-(56-ml)",
-    "hl5": "6135-302ZHHL5/hl5---hl5膠原蛋白飲",
-    "fit20": "6135-302ZHFIT20/fit20---fit20-膠原蛋白粉",
+    "nitro_nutrition": "937",
+    "sunrise": "302ZHSR30",
+    "nitro": "302ZHFX56",
+    "nitroxtreme": "302ZHXT56",
+    "sunset": "302ZHSS",
+    "hl5": "302ZHHL5BR",
+    "fit20": "302ZHFIT20",
+    "core140": "302ZHCORECH",
+    "on": "302ZHNOOTROPMB",
+    "origin": "",
+    "restore": "",
     "locales": [
       {
         "locale": "zh_HK",
@@ -22,7 +19,7 @@
         "join_locale": "zh-hk"
       },
       {
-        "locale": "en_HK",
+        "locale": "en_US",
         "language_code": "200",
         "join_locale": "en-hk"
       }

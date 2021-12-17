@@ -1,21 +1,17 @@
 {
     "country": "CROATIA",
     "default_rep": "151",
-    "triangle_of_health": "324",
-    "fleuresse": "294",
-    "nutritionals": "184",
-    "protein_nutritionals": "248",
-    "charity": "516",
-    "on": "210HRNOOTROPRG",
+    "nitro_nutrition": "950",
     "sunrise": "210HRSR30",
-    "sunset": "210HRSS",
-    "core140": "210HRCORECH",
     "nitro": "210HRFX56",
     "nitroxtreme": "210HRXT56",
+    "sunset": "210HRSS",
     "hl5": "210HRHL5P",
     "fit20": "210HRFIT20",
-    "nucleus_bar": "210HRBAR",
-    "origin_vanilla": "210HROPBSV",
+    "core140": "210HRCORECH",
+    "on": "210HRNOOTROPRG",
+    "origin": "210HROPBSV",
+    "restore": "",
     "locales": [
       {
         "locale": "hr",
@@ -23,7 +19,7 @@
         "join_locale": "hr-hr"
       },
       {
-        "locale": "en_HR",
+        "locale": "en_GB",
         "language_code": "47",
         "join_locale": "en-gb"
       }

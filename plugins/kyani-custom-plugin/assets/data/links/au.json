@@ -2,19 +2,16 @@
   "country": "AUSTRALIA",
   "default_rep": "156",
   "nitro_nutrition": "932",
-  "triangle_of_health": "334",
-  "fleuresse": "295",
-  "nutritionals": "182",
-  "protein_nutritionals": "",
-  "charity": "521",
-  "on": "",
   "sunrise": "503ENSR30",
-  "sunset": "503ENSS",
-  "core140": "",
   "nitro": "503ENFX56",
   "nitroxtreme": "503ENXT56",
+  "sunset": "503ENSS",
   "hl5": "503ENHL5BR",
   "fit20": "",
+  "core140": "",
+  "on": "",
+  "origin": "",
+  "restore": "",
   "locales": [
     {
       "locale": "en_AU",
@@ -22,7 +19,7 @@
       "join_locale": "en-au"
     },
     {
-      "locale": "zh_AU",
+      "locale": "zh_HK",
       "language_code": "-2",
       "join_locale": "zh-au"
     }

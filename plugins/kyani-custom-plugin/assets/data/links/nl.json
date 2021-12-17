@@ -1,21 +1,17 @@
 {
     "country": "NETHERLANDS",
     "default_rep": "151",
-    "triangle_of_health": "318",
-    "fleuresse": "268",
-    "nutritionals": "191",
-    "protein_nutritionals": "250",
-    "charity": "498",
-    "on": "200ENNOOTROPRG",
+    "nitro_nutrition": "967",
     "sunrise": "200ENSR30",
-    "sunset": "200ENSS",
-    "core140": "200ENCORECH",
     "nitro": "200ENFX56",
     "nitroxtreme": "200ENXT56",
+    "sunset": "200ENSS",
     "hl5": "200ENHL5P",
     "fit20": "200ENFIT20",
-    "nucleus_bar": "200ENBAR",
-    "origin_vanilla": "200ENOPBSV",
+    "core140": "200ENCORECH",
+    "on": "200ENNOOTROPRG",
+    "origin": "200ENOPBSV",
+    "restore": "",
     "locales": [
       {
         "locale": "nl_NL",
@@ -23,7 +19,7 @@
         "join_locale": "nl-nl"
       },
       {
-        "locale": "en_NL",
+        "locale": "en_GB",
         "language_code": "47",
         "join_locale": "en-gb"
       }

@@ -2,28 +2,26 @@
   "country": "PUERTO RICO",
   "default_rep": "157",
   "nitro_nutrition": "944",
-  "triangle_of_health": "816",
-  "fleuresse": "",
-  "nutritionals": "807",
-  "protein_nutritionals": "",
-  "energy_nootropics": "821",
-  "meal_replacement": "",
-  "charity": "809",
-  "on": "101ENNOOTROPP",
   "sunrise": "101ENSR30",
-  "sunset": "101ENSS",
-  "core140": "101ENCORECH",
   "nitro": "101ENFX56",
-  "nitroxtreme": "101ENXTP56",
-  "hl5": "101ENHL5",
-  "hl5_peach": "101ENHL5P",
-  "origin_vanilla": "101ENOPBSV",
+  "nitroxtreme": "101ENXT56",
+  "sunset": "101ENSS",
+  "hl5": "101ENHL5P",
   "fit20": "101ENFIT20",
+  "core140": "101ENCORECH",
+  "on": "101ENNOOTROPRG",
+  "origin": "101ENOPBSV",
+  "restore": "101ENRESTORE",
   "locales": [
     {
       "locale": "es_PR",
       "language_code": "108",
       "join_locale": "es-mx"
+    },
+    {
+      "locale": "en_US",
+      "language_code": "1",
+      "join_locale": "en-us"
     }
   ]
 }

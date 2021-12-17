@@ -1,21 +1,17 @@
 {
     "country": "SWITZERLAND",
     "default_rep": "151",
-    "triangle_of_health": "348",
-    "fleuresse": "278",
-    "nutritionals": "201",
-    "protein_nutritionals": "233",
-    "charity": "533",
-    "on": "244DENOOTROPRG",
+    "nitro_nutrition": "976",
     "sunrise": "244DESR30",
-    "sunset": "244DESS",
-    "core140": "244DECORECH",
     "nitro": "244DEFX56",
     "nitroxtreme": "244DEXT56",
+    "sunset": "244DESS",
     "hl5": "244DEHL5P",
     "fit20": "244DEFIT20",
-    "nucleus_bar": "244DEBAR",
-    "origin_vanilla": "244DEOPBSV",
+    "core140": "244DECORECH",
+    "on": "244DENOOTROPRG",
+    "origin": "244DEOPBSV",
+    "restore": "",
     "locales": [
       {
         "locale": "de_CH",
@@ -23,7 +19,7 @@
         "join_locale": "de-ch"
       },
       {
-        "locale": "fr_CH",
+        "locale": "fr_FR",
         "language_code": "56",
         "join_locale": "fr-ch"
       }

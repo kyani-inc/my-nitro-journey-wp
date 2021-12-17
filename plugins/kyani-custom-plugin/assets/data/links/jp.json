@@ -1,22 +1,20 @@
 {
   "country": "JAPAN",
   "default_rep": "",
-  "triangle_of_health": "176",
-  "fleuresse": "",
-  "nutritionals": "223",
-  "protein_nutritionals": "223",
-  "charity": "528",
-  "on": "",
+  "nitro_nutrition": "",
   "sunrise": "303JASR30",
-  "sunset": "303JASS",
-  "core140": "",
   "nitro": "303JAFX56",
   "nitroxtreme": "303JAXT56",
+  "sunset": "303JASS",
   "hl5": "303JAHL5",
   "fit20": "303JAFIT20",
+  "core140": "",
+  "on": "",
+  "origin": "",
+  "restore": "",
   "locales": [
     {
-      "locale": "ja_JP",
+      "locale": "ja",
       "language_code": "72",
       "join_locale": "ja-jp"
     }

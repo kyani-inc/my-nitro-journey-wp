@@ -1,24 +1,20 @@
 {
     "country": "BULGARIA",
     "default_rep": "151",
-    "triangle_of_health": "326",
-    "fleuresse": "302",
-    "nutritionals": "188",
-    "protein_nutritionals": "260",
-    "charity": "524",
-    "on": "200ENNOOTROPRG",
+    "nitro_nutrition": "949",
     "sunrise": "200ENSR30",
-    "sunset": "200ENSS",
-    "core140": "200ENCORECH",
     "nitro": "200ENFX56",
     "nitroxtreme": "200ENXT56",
+    "sunset": "200ENSS",
     "hl5": "200ENHL5P",
     "fit20": "200ENFIT20",
-    "nucleus_bar": "200ELBAR",
-    "origin_vanilla": "200ENOPBSV",
+    "core140": "200ENCORECH",
+    "on": "200ENNOOTROPRG",
+    "origin": "200ENOPBSV",
+    "restore": "",
     "locales": [
       {
-        "locale": "en_BG",
+        "locale": "en_GB",
         "language_code": "47",
         "join_locale": "en-gb"
       }

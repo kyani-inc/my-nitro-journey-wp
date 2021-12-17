@@ -4,25 +4,16 @@
       "locale": "tr_TR",
       "translations": {
         "view_bio": "Biyografiyi Görüntüle",
-        "view_profile": "Tüm profili Görüntüle",
+        "hide_bio": "Biyografiyi Gizle",
+        "view_profile": "Tüm Profili Görüntüle",
         "hide_profile": "Tam Profili Gizle",
         "ibp": "Bağımsız İş Ortağı",
         "join_team": "Takıma katıl",
         "shop_now": "Hemen Satın Alın",
-        "about_me": "Benim hakkımda"
+        "about_me": "Benim hakkımda",
+        "country": "Ülke"
       }
-    },
-    {
-      "locale": "en_TR",
-      "translations": {
-        "view_bio": "View Bio",
-        "view_profile": "View Full Profile",
-        "hide_profile": "Hide Full Profile",
-        "ibp": "Independent Business Partner",
-        "join_team": "Join Team",
-        "shop_now": "Shop Now",
-        "about_me": "About Me"
-      }
+    }
     }
   ]
 }

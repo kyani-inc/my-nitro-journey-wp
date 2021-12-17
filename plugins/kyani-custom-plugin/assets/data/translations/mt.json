@@ -1,15 +1,15 @@
 {
   "locales": [
     {
-      "locale": "en_MT",
+      "locale": "en_GB",
       "translations": {
         "view_bio": "View Bio",
-        "view_profile": "View Full Profile",
-        "hide_profile": "Hide Full Profile",
+        "hide_bio":  "Hide Bio",
         "ibp": "Independent Business Partner",
         "join_team": "Join Team",
         "shop_now": "Shop Now",
-        "about_me": "About Me"
+        "about_me": "About Me",
+        "country": "Country"
       }
     }
   ]

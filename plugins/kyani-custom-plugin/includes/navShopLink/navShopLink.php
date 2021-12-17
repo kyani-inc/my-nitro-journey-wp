@@ -45,7 +45,7 @@ function navShopLinkShortcode()
 	$product_link = new ShopLink($rep_id);
 
 	// RETURN link for navigation menus
-	return '<li class="nav-item"><a class="navShopLink nav-link" href="' . $product_link->get_all_products_link() . '">' . $locale_translations->shop_now . '</a></li>';
+	return '<a class="navShopLink nav-link" href="' . $product_link->get_all_products_link() . '">' . $locale_translations->shop_now . '</a>';
 }
 
 add_shortcode('navShopLink', 'navShopLinkShortcode');
