@@ -7,8 +7,8 @@
 class ShopLink
 {
 	private $rep, $default_rep, $join_locale, $country;
-	private $triangle_of_health, $nutritionals, $protein_nutritionals, $fleuresse, $charity, $energy_nootropics, $meal_replacement, $nitro_nutrition, $puredawoom, $digestive_health;
-	private $sunrise, $sunset, $on, $hl5, $core140, $fit20, $nitro, $nitroxtreme, $nucleus_bar, $hl5_peach, $origin_vanilla, $probiotics;
+	private $nitro_nutrition;
+	private $sunrise, $nitro, $nitroxtreme, $sunset, $hl5, $fit20, $core140, $on, $origin, $restore;
 	private $shop_type, $country_code, $enabled, $redirectURL;
 
 	function __construct($repID)
@@ -59,34 +59,21 @@ class ShopLink
 		$this->country = $store_links->country;
 
 		// add category codes
-		$this->triangle_of_health = $store_links->triangle_of_health;
-		$this->nutritionals = $store_links->nutritionals;
-		$this->fleuresse = $store_links->fleuresse;
-		$this->protein_nutritionals = $store_links->protein_nutritionals;
-		$this->charity = $store_links->charity;
-		$this->energy_nootropics = $store_links->energy_nootropics;
-		$this->meal_replacement = $store_links->meal_replacement;
 		$this->nitro_nutrition = $store_links->nitro_nutrition;
-		$this->puredawoom = $store_links->puredawoom;
-		$this->digestive_health = $store_links->digestive_health;
 
 		// add product codes
-		$this->on = $store_links->on;
 		$this->sunrise = $store_links->sunrise;
-		$this->sunset = $store_links->sunset;
-		$this->core140 = $store_links->core140;
 		$this->nitro = $store_links->nitro;
 		$this->nitroxtreme = $store_links->nitroxtreme;
+		$this->sunset = $store_links->sunset;
 		$this->hl5 = $store_links->hl5;
 		$this->fit20 = $store_links->fit20;
-		$this->nucleus_bar = $store_links->nucleus_bar;
-		$this->hl5_peach = $store_links->hl5_peach;
-		$this->origin_vanilla = $store_links->origin_vanilla;
-		$this->probiotics = $store_links->probiotics;
+		$this->core140 = $store_links->core140;
+		$this->on = $store_links->on;
+		$this->origin = $store_links->origin;
+		$this->restore = $store_links->restore;
 
-
-
-		if ($current_site_country_code === "hk" || $current_site_country_code === "mo" || $current_site_country_code === "th") {
+		if ($current_site_country_code === "th") {
 			$this->shop_type = "kyani";
 		}
 
@@ -106,7 +93,7 @@ class ShopLink
 				return "";
 			} else {
 				if ($this->shop_type === "kyani") {
-					if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
+					if ($this->country === "THAILAND") {
 						return "https://shop.kyani.net/" . $this->join_locale . "/products/?sponsor=" . $this->rep . "&country=" . $this->country_code . "&locale=" . $this->join_locale;
 					}
 				} else {
@@ -116,112 +103,14 @@ class ShopLink
 		}
 	}
 
-	function get_toh_link()
-	{
-		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return $this->category_link_generator($this->triangle_of_health, "kyani");
-			}
-
-		} else {
-			return $this->category_link_generator($this->triangle_of_health, "bdt");
-		}
-	}
-
-	function get_nutritionals_link()
-	{
-		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return "";
-			}
-		} else {
-			return $this->category_link_generator($this->nutritionals, "bdt");
-		}
-	}
-
-	function get_protein_nutritionals_link()
-	{
-		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return $this->category_link_generator($this->protein_nutritionals, "kyani");
-			}
-		}
-		return $this->category_link_generator($this->protein_nutritionals, "bdt");
-	}
-
-	function get_fleuresse_link()
-	{
-		if ($this->shop_type === "kyani") {
-		} else {
-			return $this->category_link_generator($this->fleuresse, "bdt");
-		}
-	}
-
-	function get_charity_link()
-	{
-		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return $this->category_link_generator($this->charity, "kyani");
-			}
-		} else {
-			return $this->category_link_generator($this->charity, "bdt");
-		}
-	}
-
-	function get_energy_nootropics_link()
-	{
-		return $this->category_link_generator($this->energy_nootropics, "bdt");
-	}
-
 	function get_nitro_nutrition_link()
 	{
 		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
+			if ($this->country === "THAILAND") {
 				return $this->category_link_generator($this->nitro_nutrition, "kyani");
 			}
 		} else {
 			return $this->category_link_generator($this->nitro_nutrition, "bdt");
-		}
-	}
-
-	function get_meal_replacement_link()
-	{
-		return $this->category_link_generator($this->meal_replacement, "bdt");
-	}
-
-	function get_puredawoom_link()
-	{
-		return $this->category_link_generator($this->puredawoom, "bdt");
-	}
-
-	function get_digestive_health_link()
-	{
-		return $this->category_link_generator($this->digestive_health, "bdt");
-	}
-
-	function get_nucleus_bar_link()
-	{
-			return $this->product_link_generator($this->nucleus_bar, "bdt");
-	}
-
-	function get_hl5_peach_link()
-	{
-		return $this->product_link_generator($this->hl5_peach, "bdt");
-	}
-
-	function get_origin_vanilla_link()
-	{
-		return $this->product_link_generator($this->origin_vanilla, "bdt");
-	}
-
-	function get_on_link()
-	{
-		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return $this->product_link_generator($this->on, "kyani");
-			}
-		} else {
-			return $this->product_link_generator($this->on, "bdt");
 		}
 	}
 
@@ -233,6 +122,28 @@ class ShopLink
 			}
 		} else {
 			return $this->product_link_generator($this->sunrise, "bdt");
+		}
+	}
+
+	function get_nitro_link()
+	{
+		if ($this->shop_type === "kyani") {
+			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
+				return $this->product_link_generator($this->nitro, "kyani");
+			}
+		} else {
+			return $this->product_link_generator($this->nitro, "bdt");
+		}
+	}
+
+	function get_nitro_xtreme_link()
+	{
+		if ($this->shop_type === "kyani") {
+			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
+				return $this->product_link_generator($this->nitroxtreme, "kyani");
+			}
+		} else {
+			return $this->product_link_generator($this->nitroxtreme, "bdt");
 		}
 	}
 
@@ -248,25 +159,24 @@ class ShopLink
 		}
 	}
 
-	function get_nitro_link()
+	function get_hl5_link()
 	{
 		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return $this->product_link_generator($this->nitro, "kyani");
+			if ($this->country === "THAILAND") {
+				return $this->product_link_generator($this->hl5, "kyani");
 			}
-		} else {
-			return $this->product_link_generator($this->nitro, "bdt");
 		}
+		return $this->product_link_generator($this->hl5, "bdt");
 	}
 
-	function get_nitro_x_link()
+	function get_fit20_link()
 	{
 		if ($this->shop_type === "kyani") {
 			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return $this->product_link_generator($this->nitroxtreme, "kyani");
+				return $this->product_link_generator($this->fit20, "kyani");
 			}
 		} else {
-			return $this->product_link_generator($this->nitroxtreme, "bdt");
+			return $this->product_link_generator($this->fit20, "bdt");
 		}
 	}
 
@@ -281,35 +191,25 @@ class ShopLink
 		}
 	}
 
-	function get_fit20_link()
+	function get_on_link()
 	{
 		if ($this->shop_type === "kyani") {
 			if ($this->country === "HONG KONG" || $this->country === "MACAU" || $this->country === "THAILAND") {
-				return $this->product_link_generator($this->fit20, "kyani");
+				return $this->product_link_generator($this->on, "kyani");
 			}
 		} else {
-			return $this->product_link_generator($this->fit20, "bdt");
+			return $this->product_link_generator($this->on, "bdt");
 		}
 	}
 
-	function get_hl5_link()
+	function get_origin_link()
 	{
-		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country_code === "MACAU" || $this->country === "THAILAND") {
-				return $this->product_link_generator($this->hl5, "kyani");
-			}
-		}
-		return $this->product_link_generator($this->hl5, "bdt");
+		return $this->product_link_generator($this->origin, "bdt");
 	}
 
-	function get_probiotics_link()
+	function get_restore_link()
 	{
-		if ($this->shop_type === "kyani") {
-			if ($this->country === "HONG KONG" || $this->country_code === "MACAU" || $this->country === "THAILAND") {
-				return $this->product_link_generator($this->probiotics, "kyani");
-			}
-		}
-		return $this->product_link_generator($this->probiotics, "bdt");
+		return $this->product_link_generator($this->restore, "bdt");
 	}
 
 	private function product_link_generator($product_code, $shop_type)
@@ -383,158 +283,81 @@ function my_acf_add_local_field_groups()
 				),
 				array(
 					'key' => 'field_2',
-					'label' => 'Triangle Of Health',
-					'name' => 'triangle_of_health',
-					'type' => 'url',
-					'default_value' => $link->get_toh_link()
-				),
-				array(
-					'key' => 'field_3',
-					'label' => 'Nutritionals',
-					'name' => 'nutritionals',
-					'type' => 'url',
-					'default_value' => $link->get_nutritionals_link()
-				),
-				array(
-					'key' => 'field_4',
-					'label' => 'Protein Nutritionals',
-					'name' => 'protein_nutritionals',
-					'type' => 'url',
-					'default_value' => $link->get_protein_nutritionals_link()
-				),
-				array(
-					'key' => 'field_5',
-					'label' => 'Fleuresse',
-					'name' => 'fleuresse',
-					'type' => 'url',
-					'default_value' => $link->get_fleuresse_link()
-				),
-				array(
-					'key' => 'field_6',
-					'label' => 'Charity',
-					'name' => 'charity',
-					'type' => 'url',
-					'default_value' => $link->get_charity_link()
-				),
-				array(
-					'key' => 'field_7',
-					'label' => 'Sunrise',
-					'name' => 'sunrise',
-					'type' => 'url',
-					'default_value' => $link->get_sunrise_link()
-				),
-				array(
-					'key' => 'field_8',
-					'label' => 'Sunset',
-					'name' => 'sunset',
-					'type' => 'url',
-					'default_value' => $link->get_sunset_link()
-				),
-				array(
-					'key' => 'field_9',
-					'label' => 'ON',
-					'name' => 'on',
-					'type' => 'url',
-					'default_value' => $link->get_on_link()
-				),
-				array(
-					'key' => 'field_10',
-					'label' => 'Nitro',
-					'name' => 'nitro',
-					'type' => 'url',
-					'default_value' => $link->get_nitro_link()
-				),
-				array(
-					'key' => 'field_11',
-					'label' => 'NitroXtreme',
-					'name' => 'nitroxtreme',
-					'type' => 'url',
-					'default_value' => $link->get_nitro_x_link()
-				),
-				array(
-					'key' => 'field_12',
-					'label' => 'HL5',
-					'name' => 'hl5',
-					'type' => 'url',
-					'default_value' => $link->get_hl5_link()
-				),
-				array(
-					'key' => 'field_13',
-					'label' => 'Fit20',
-					'name' => 'fit20',
-					'type' => 'url',
-					'default_value' => $link->get_fit20_link()
-				),
-				array(
-					'key' => 'field_14',
-					'label' => 'Core140+',
-					'name' => 'core140',
-					'type' => 'url',
-					'default_value' => $link->get_core140_link()
-				),
-				array(
-					'key' => 'field_15',
-					'label' => 'Energy / Nootropics',
-					'name' => 'energy_nootropics',
-					'type' => 'url',
-					'default_value' => $link->get_energy_nootropics_link()
-				),
-				array(
-					'key' => 'field_16',
-					'label' => 'Meal Replacement',
-					'name' => 'meal_replacement',
-					'type' => 'url',
-					'default_value' => $link->get_meal_replacement_link()
-				),
-				array(
-					'key' => 'field_17',
-					'label' => 'Nucleus Bar',
-					'name' => 'nucleus_bar',
-					'type' => 'url',
-					'default_value' => $link->get_nucleus_bar_link()
-				),
-				array(
-					'key' => 'field_18',
 					'label' => 'Nitro Nutrition',
 					'name' => 'nitro_nutrition',
 					'type' => 'url',
 					'default_value' => $link->get_nitro_nutrition_link()
 				),
 				array(
-					'key' => 'field_19',
-					'label' => 'HL5 Peach',
-					'name' => 'hl5_peach',
+					'key' => 'field_3',
+					'label' => 'Sunrise',
+					'name' => 'sunrise',
 					'type' => 'url',
-					'default_value' => $link->get_hl5_peach_link()
+					'default_value' => $link->get_sunrise_link()
 				),
 				array(
-					'key' => 'field_20',
-					'label' => 'Vanilla Origin',
-					'name' => 'origin_vanilla',
+					'key' => 'field_4',
+					'label' => 'Nitro FX',
+					'name' => 'nitro',
 					'type' => 'url',
-					'default_value' => $link->get_origin_vanilla_link()
+					'default_value' => $link->get_nitro_link()
 				),
 				array(
-					'key' => 'field_21',
-					'label' => 'Puredawoom',
-					'name' => 'puredawoom',
+					'key' => 'field_5',
+					'label' => 'Nitro Xtreme',
+					'name' => 'nitro_xtreme',
 					'type' => 'url',
-					'default_value' => $link->get_puredawoom_link()
+					'default_value' => $link->get_nitro_xtreme_link()
 				),
 				array(
-					'key' => 'field_22',
-					'label' => 'Probiotics',
-					'name' => 'probiotics',
+					'key' => 'field_6',
+					'label' => 'Sunset',
+					'name' => 'sunset',
 					'type' => 'url',
-					'default_value' => $link->get_probiotics_link()
+					'default_value' => $link->get_sunset_link()
 				),
 				array(
-					'key' => 'field_23',
-					'label' => 'Digestive Health',
-					'name' => 'digestive_health',
+					'key' => 'field_7',
+					'label' => 'HL5',
+					'name' => 'hl5',
 					'type' => 'url',
-					'default_value' => $link->get_digestive_health_link()
+					'default_value' => $link->get_hl5_link()
 				),
+				array(
+					'key' => 'field_8',
+					'label' => 'FIT20',
+					'name' => 'fit20',
+					'type' => 'url',
+					'default_value' => $link->get_fit20_link()
+				),
+				array(
+					'key' => 'field_9',
+					'label' => 'CORE140',
+					'name' => 'core140',
+					'type' => 'url',
+					'default_value' => $link->get_core140_link()
+				),
+				array(
+					'key' => 'field_10',
+					'label' => 'ON',
+					'name' => 'on',
+					'type' => 'url',
+					'default_value' => $link->get_on_link()
+				),
+				array(
+					'key' => 'field_11',
+					'label' => 'Origin',
+					'name' => 'origin',
+					'type' => 'url',
+					'default_value' => $link->get_origin_link()
+				),
+				array(
+					'key' => 'field_12',
+					'label' => 'Restore',
+					'name' => 'restore',
+					'type' => 'url',
+					'default_value' => $link->get_restore_link()
+				)
 			)
 		));
 	}
