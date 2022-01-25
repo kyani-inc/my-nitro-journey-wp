@@ -14,7 +14,7 @@ function navShopLinkShortcode()
 	}
 
 	// GET store links for country
-	$store_links = json_decode(file_get_contents(dirname(__DIR__) . '/assets/data/links/' . $current_site_country_code . '.json'));
+	$store_links = json_decode(file_get_contents(plugins_url() . '/kyani-custom-plugin/assets/data/links/' . $current_site_country_code . '.json'));
 
 	// GET translations for current country
 	$locale_translations = '';

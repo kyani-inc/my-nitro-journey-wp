@@ -13,6 +13,7 @@ $kyani_plugin_includes = array(
 	'/link-generator.php',
 	'/navShopLink/navShopLink.php',
 	'/nav-country-switcher.php',
+	'/custom-config.php'
 );
 
 foreach ($kyani_plugin_includes as $file) {
