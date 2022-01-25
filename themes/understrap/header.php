@@ -82,7 +82,7 @@ $homeLink = "";
 				<div class="container">
 					<?php endif; ?>
 
-					<p><?php echo $logoLink ?></p>
+					<p><?php echo print_r($logoLink) ?></p>
 					<ul class="navbar-nav desktop-only">
 					<?php echo do_shortcode('[replicatedDisplay]'); ?>
 					<?php echo do_shortcode('[navShopLink]'); ?>
