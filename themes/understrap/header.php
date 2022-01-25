@@ -21,7 +21,7 @@ $logoLink = "";
 $logoWidth = "";
 $homeLink = "";
 
-	$rep = $_SERVER['HTTP_X_KYANI_REP'];
+	$rep = $_SERVER['X_KYANI_REP'];
 	if (!($rep === "nitronutritionlife")) {
 		$logoLink = "$rep";
 		$logoWidth = "180";
