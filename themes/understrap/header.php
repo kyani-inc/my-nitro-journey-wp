@@ -21,7 +21,7 @@ $logoLink = "";
 $logoWidth = "";
 $homeLink = "";
 
-	$rep = $_SERVER['x-kyani-rep'];
+	$rep = $_SERVER['HTTP_HOST'];
 	if (!($rep === "nitronutritionlife")) {
 		$logoLink = "$rep";
 		$logoWidth = "180";
@@ -82,11 +82,7 @@ $homeLink = "";
 				<div class="container">
 					<?php endif; ?>
 
-					<a href="<?php echo($homeLink != "" ? "//" . $homeLink : esc_url(home_url('/'))); ?>"
-					   class="navbar-brand"><img
-								src="<?php echo esc_url(bloginfo('template_directory') . "/images/" . $logoLink) ?>"
-								alt=""
-								width=<?php echo esc_attr($logoWidth) ?>></a>
+					<p><?php echo $logoLink ?></p>
 					<ul class="navbar-nav desktop-only">
 					<?php echo do_shortcode('[replicatedDisplay]'); ?>
 					<?php echo do_shortcode('[navShopLink]'); ?>
