@@ -21,21 +21,15 @@ $logoLink = "";
 $logoWidth = "";
 $homeLink = "";
 
-if (isset($_SERVER['HTTP_X_KYANI_REP'])) {
 	$rep = explode(';', $_SERVER['HTTP_X_KYANI_REP'])[0];
 	if (!($rep === "www")) {
-		$logoLink = "kyani-blue-logo-bp.svg";
+		$logoLink = "$rep";
 		$logoWidth = "180";
 		$homeLink = $rep . '.' . $_SERVER['HTTP_HOST'] . get_blog_details(get_current_blog_id())->path;
 	} else {
-		$logoLink = "kyani-blue-logo.svg";
+		$logoLink = "$rep";
 		$logoWidth = "80";
 	}
-
-} else {
-	$logoLink = "kyani-blue-logo.svg";
-	$logoWidth = "80";
-}
 
 
 ?>
