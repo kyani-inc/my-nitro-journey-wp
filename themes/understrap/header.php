@@ -21,9 +21,9 @@ $logoLink = "";
 $logoWidth = "";
 $homeLink = "";
 
-	$rep = explode(';', $_SERVER['HTTP_X_KYANI_REP'])[0];
+	$rep = explode(';', $_SERVER['x-kyani-rep'])[0];
 	if (!($rep === "www")) {
-		$logoLink = "$rep";
+		$logoLink = "kyani-blue-logo-bp.svg";
 		$logoWidth = "180";
 		$homeLink = $rep . '.' . $_SERVER['HTTP_HOST'] . get_blog_details(get_current_blog_id())->path;
 	} else {
