@@ -94,6 +94,9 @@ class Rep
 
 function set_rep() {
 	$repID = "";
+	if (isset($_SERVER['HTTP_X_KYANI_REP'])) {
+		$repID = explode(';', $_SERVER['HTTP_X_KYANI_REP'])[0];
+	}
 
 	global $rep;
 	$rep = new Rep($repID);
