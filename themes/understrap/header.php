@@ -21,15 +21,21 @@ $logoLink = "";
 $logoWidth = "";
 $homeLink = "";
 
-	$rep = $_SERVER['HTTP_X_KYANI_REP'];
-	if (!($rep === "nitronutritionlife")) {
-		$logoLink = "$rep";
+if (isset($_SERVER['HTTP_X_KYANI_REP'])) {
+	$rep = explode(';', $_SERVER['HTTP_X_KYANI_REP'])[0];
+	if (!($rep === "")) {
+		$logoLink = "kyani-blue-logo-bp.svg";
 		$logoWidth = "180";
 		$homeLink = $rep . '.' . $_SERVER['HTTP_HOST'] . get_blog_details(get_current_blog_id())->path;
 	} else {
-		$logoLink = "$rep";
+		$logoLink = "kyani-blue-logo.svg";
 		$logoWidth = "80";
 	}
+
+} else {
+	$logoLink = "$rep";
+	$logoWidth = "80";
+}
 
 
 ?>
@@ -82,7 +88,11 @@ $homeLink = "";
 				<div class="container">
 					<?php endif; ?>
 
-					<p><?php echo print_r($logoLink) ?></p>
+					<a href="<?php echo($homeLink != "" ? "//" . $homeLink : esc_url(home_url('/'))); ?>"
+					   class="navbar-brand"><img
+								src="<?php echo esc_url(bloginfo('template_directory') . "/images/" . $logoLink) ?>"
+								alt=""
+								width=<?php echo esc_attr($logoWidth) ?>></a>
 					<ul class="navbar-nav desktop-only">
 					<?php echo do_shortcode('[replicatedDisplay]'); ?>
 					<?php echo do_shortcode('[navShopLink]'); ?>
