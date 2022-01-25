@@ -21,7 +21,7 @@ $logoLink = "";
 $logoWidth = "";
 $homeLink = "";
 
-	$rep = explode('.', $_SERVER['HTTP_HOST'])[0];
+	$rep = $_SERVER['HTTP_HOST'];
 	if (!($rep === "nitronutritionlife")) {
 		$logoLink = "$rep";
 		$logoWidth = "180";
