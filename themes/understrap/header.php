@@ -33,7 +33,7 @@ if (isset($_SERVER['HTTP_X_KYANI_REP'])) {
 	}
 
 } else {
-	$logoLink = "$rep";
+	$logoLink = "kyani-blue-logo.svg";
 	$logoWidth = "80";
 }
 
